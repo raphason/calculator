@@ -43,7 +43,6 @@ btns.forEach((btn) => {
                     calculArray[0] = newNumber;
                     display.textContent = newNumber;
                 }
-
         }
     });
 });
