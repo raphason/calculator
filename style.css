@@ -36,19 +36,32 @@ button:hover {
     background: #222222;
 }
 
-.display {
+.screen {
     padding: 4px;
-    height: 64px;
-    line-height: 64px;
     background-color: #333333;
     margin-bottom: 16px;
     margin-top: 16px;
-    color: #dddddd;
-    font-size: 54px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS';
     vertical-align: center;
     border: none;
     border-radius: 8px;
+}
+
+.display {
+    height: 64px;
+    line-height: 64px;
+    color: #dddddd;
+    font-size: 54px;
+}
+
+.equation {
+    height: 18px;
+    padding: 2px;
+    color: orange;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    background-color: #303030;
 }
 
 .buttons {
